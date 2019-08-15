@@ -1,7 +1,7 @@
 # Node.js 가상포트로 시리얼 통신 ( Mac )
 
 ## 1. 가상포트 생성 
-> 각 터미널은 새로운 세션(terminal 0~2 으로 칭함)으로 열어 명령어 실행 (termina)
+> **각 터미널은 새로운 세션(terminal 0~2 으로 칭함)으로 열어 명령어 실행**
 
 * socat 설치
     ```
@@ -28,7 +28,7 @@
     ```
     echo "TEST Message" > /dev/ttys002
     ```
-    > \> 꺽쇠 명령어는 좌측 명령어를 우측에 입력 또는 생성
+    > **\> 꺽쇠 명령어는 좌측 명령어를 우측에 입력 또는 생성
 * 결과
   아래와 같이 나오면 가상포트 생성 성공
   ![result](./img/result.png)
@@ -70,7 +70,7 @@ serialport 패키지를 이용
     });
     ```
 
-> 자세한 사용법은 [이곳](http://www.google.co.kr) 참조
+> **자세한 사용법은 [이곳](http://www.google.co.kr) 참조
 
 ## 4. 최종 결과
 ![code](img/code.png)
