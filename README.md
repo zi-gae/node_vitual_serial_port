@@ -28,7 +28,7 @@
     ```
     echo "TEST Message" > /dev/ttys002
     ```
-    > **\> 꺽쇠 명령어는 좌측 명령어를 우측에 입력 또는 생성
+    > **\> 꺽쇠 명령어는 좌측 명령어를 우측에 입력 또는 생성**
 * 결과
   아래와 같이 나오면 가상포트 생성 성공
   ![result](./img/result.png)
@@ -70,7 +70,7 @@ serialport 패키지를 이용
     });
     ```
 
-> **자세한 사용법은 [이곳](http://www.google.co.kr) 참조
+> **자세한 사용법은 [이곳](http://www.google.co.kr) 참조**
 
 ## 4. 최종 결과
 ![code](img/code.png)
